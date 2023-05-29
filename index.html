@@ -44,9 +44,26 @@
     <script src="js/modernizr-2.6.2.min.js"></script>
 
 </head>
-
+  
 <body id="body">
-
+    <!-- Google Translate -->
+        <div id="google_translate_element"></div>
+    
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement(
+                    {pageLanguage: 'en'},
+                    'google_translate_element'
+                );
+            }
+        </script>
+    
+        <script type="text/javascript"
+                src=
+    "https://translate.google.com/translate_a/element.js?
+    cb=googleTranslateElementInit">
+        </script>
+    <!-- End Google Translate -->
     <!-- preloader -->
     <div id="preloader">
         <img src="img/preloader.gif" alt="Preloader">
