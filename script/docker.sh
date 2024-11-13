@@ -1,4 +1,7 @@
 # 1 line
+# 
+# sh -c "$(curl -fsSL https://raw.githubusercontent.com/JaxVN/jaxvn.github.io/refs/heads/main/script/docker.sh)"
+#
 # Add Docker's official GPG key:
 sudo apt-get update
 sudo apt-get install ca-certificates curl
