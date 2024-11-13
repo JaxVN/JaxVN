@@ -1,3 +1,5 @@
+# sh -c "$(curl -fsSL https://raw.githubusercontent.com/JaxVN/jaxvn.github.io/refs/heads/main/script/1.sh)" 
+#
 #!/bin/bash
 # Kiểm tra và cài đặt pv nếu chưa có
 if ! command -v pv &> /dev/null; then
